@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1{
+	margin-top:30px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 26.25px;
+}
+.row{
+	width: 100%;
+	margin-left: 20px;
+    margin-right: 20px;
+	margin-top: 80px;
+	}
+
+
+.sec1{
+    float: left;
+   
+    border: 1px solid black;
+    margin-right:30px;
+    position: relative;
+    background-color: grey;
+
+     /* Should be removed. Only for demonstration */
+}
+.sec2{
+    float: left;
+    
+    border: 1px solid black;
+    margin-right: 30px;
+    position: relative;
+     background-color: grey;
+   
+     /* Should be removed. Only for demonstration */
+}
+.sec3{
+    float: left;
+    border: 1px solid black;
+    position: relative;
+     background-color: grey;
+     /* Should be removed. Only for demonstration */
+}
+p{
+	padding: 20px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+.tt1{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+	border:1px solid black;
+	display: block;
+	text-align: center;
+	background-color: pink;
+	font-size: 18.75px;
+	width:30%;
+}
+.tt2{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+	border:1px solid black;
+	display: block;
+	text-align: center;
+	background-color: tomato;
+	font-size: 18.75px;
+	width:30%;
+}
+.tt3{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+	border:1px solid black;
+	display: block;
+	text-align: center;
+	background-color: orange;
+	font-size: 18.75px;
+	width:30%;
+}
+
+@media (min-width: 992px) {
+ .sec1{
+ 	width:31%;
+ }
+ .sec2{
+ 	width:31%;
+ }
+
+ .sec3{
+
+ 	width:31%;
+ }
+
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .sec1{
+ 	width: 46%;
+ }
+ .sec2{
+ 	width: 46%;
+ }
+ .sec3{
+ 	width: 95.5%;
+ 	margin-top: 30px;
+ }
+}
+
+@media (max-width: 767px)
+{
+	.sec1{
+		width: 95.5%;
+
+	}
+	.sec2{
+		width: 95.5%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.sec3{
+		width: 95.5%;
+	}
+}
